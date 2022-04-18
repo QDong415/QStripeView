@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QStripeView">
+        <!-- 上方color -->
+        <attr name="gradientStartColor" format="color"/>
+        <!-- 下方color -->
+        <attr name="gradientEndColor" format="color"/>
+        <!-- 每个小条间距，dp，默认8 -->
+        <attr name="gapWidth" format="dimension"/>
+        <!-- 每个小条宽度，dp，默认10 -->
+        <attr name="barWidth" format="dimension"/>
+        <!-- 移动速度，默认400 -->
+        <attr name="moveDuration" format="integer" />
+        <!-- 角度，默认315，315是向右偏移45度 -->
+        <attr name="degree" format="integer" />
+    </declare-styleable>
+
+</resources>

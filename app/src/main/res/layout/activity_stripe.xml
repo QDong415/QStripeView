@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.dq.stripe.QStripeView
+        android:id="@+id/stripe_view"
+        app:gradientStartColor="@android:color/darker_gray"
+        app:gradientEndColor="@android:color/transparent"
+        app:gapWidth="12dp"
+        app:barWidth="10dp"
+        app:moveDuration="500"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+rootProject.name = "StripeViewDemo"
+include ':app'
+include ':stripeview'
